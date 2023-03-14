@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab-3-RelativeLayout</string>
+    <string name="done">Done</string>
+    <string name="reminder">Reminder name</string>
+    <string name="date">Tue, Mar 14, 2023</string>
+    <string name="time">07:48 AM</string>
+</resources>
