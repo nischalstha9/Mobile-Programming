@@ -17,13 +17,13 @@
         android:layout_height="wrap_content"
         android:hint="@string/subject"
         />
+
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/message"
-        android:gravity="top"
+        android:layout_height="370dp"
         android:layout_weight="1"
-        />
+        android:gravity="top"
+        android:hint="@string/message" />
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"

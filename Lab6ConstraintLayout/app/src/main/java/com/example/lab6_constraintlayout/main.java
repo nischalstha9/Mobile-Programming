@@ -1,6 +1,8 @@
-package com.example.lab_3_relativelayout;
+package com.example.lab6_constraintlayout;
+
 import android.app.Activity;
 import android.os.Bundle;
+
 import androidx.annotation.Nullable;
 
 public class main extends Activity {
