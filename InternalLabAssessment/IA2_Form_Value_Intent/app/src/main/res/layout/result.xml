@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<TextView
+    android:id="@+id/firstNameRes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lastNameRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/classRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rollRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/addressRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="41dp"
+    android:layout_gravity="left"
+    android:layout_marginTop="20sp"
+    android:text="Gender:"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/GenderValueView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp" />
+
+</LinearLayout>

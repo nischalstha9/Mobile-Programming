@@ -19,7 +19,6 @@ public class EventActivityMain extends Activity implements View.OnTouchListener 
         Button button = (Button) findViewById(R.id.ClickBtn);
         TextView result = (TextView) findViewById(R.id.Result);
         button.setOnTouchListener(this);
-        result.setOnTouchListener(this);
     }
 
 

@@ -31,9 +31,16 @@
 
     <fragment
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/calc_fragment"
         android:name="com.nischalstha9.lab12fragment.Fragment1_calc"
+        />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/result_fragment"
+        android:name="com.nischalstha9.lab12fragment.result_fragment"
         />
 
 </LinearLayout>

@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 public class Fragment1_calc extends Fragment {
 
@@ -35,6 +36,16 @@ public class Fragment1_calc extends Fragment {
                 second = Integer.parseInt(edtSecond.getText().toString());
                 result = first+second;
                 txtResult.setText("Result = "+ result);
+
+                Fragment fragment = new result_fragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("res", Integer.toString(result)); // Add your data to the bundle
+                fragment.setArguments(bundle);
+
+                FragmentManager fragmentManager = getParentFragmentManager();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.result_fragment, fragment)
+                        .commit();
             }
         });
         return view;

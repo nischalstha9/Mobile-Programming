@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IA2_Form_Value_Intent</string>
+    <string-array name="classValues">
+        <item >BCA</item>
+        <item >BBM</item>
+        <item >BIT</item>
+    </string-array>
+</resources>
